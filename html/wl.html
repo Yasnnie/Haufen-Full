@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../image/logoverde.png">
+    <link rel="stylesheet" href="../css/wl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>White List - Haufen</title>
+</head>
+
+<body>
+
+
+
+    <div class="barra">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/servidores.html" >Servidores</a></li>
+            <li><a href="https://discord.gg/QsYqCMm" target="_blank" >Discord</a></li>
+            <li><a href="../html/sobre.html" >Sobre</a></li>
+        </ul>
+    </div>
+
+
+
+
+        <div class="container">
+            <form name="WhitleList" method="POST" action="../php/wl.php">
+            <div class="section">
+                
+                <div class="quadrado">
+                    <div class="tituloDiv">
+                        <h1>Bem-vindo a nossa </h1>
+                        <h1 class="p2TituloDiv"> White List </h1>
+                    </div>
+
+                    <hr>
+
+                    <p id="descricaoWL"> Responda as perguntas do nosso questionário para saber se está apto para jogar
+                        em
+                        nossas
+                        cidades, tendo que saber regras básicas para jogar um RolePlay (RP). Caso acerte maior parte do
+                        nosso
+                        questionário você será aprovado pelos nossos administradores nos servidores para poder entrar
+                        neles,
+                        isso
+                        pode demorar um pouco, então aguarde. Fazendo essa White List o jogador(a) terá acesso as nossas
+                        cidades
+                        Green Ville, servidor de RP de Dayz, e Golden City, servidor de RP de Arma 3.
+                        <br>
+                        <b class="aviso">Porfavor responda todas as perguntas!!</b> 
+                    </p>
+                    <hr>
+
+                    <div class="div_pergunta">
+                        
+                            <h3>Qual seu discord? ex: TioPhil#1455</h3>
+                            <h4 id="DiscordObs">(Certifique-se de participar do nosso grupo do discord para que todas
+                                TAGS
+                                sejam
+                                setadas)</h4>
+                            <input type="text" name="discord" id="discord" maxlength="25">
+
+
+                            <hr>
+
+
+                            <h3>Qual o link da sua steam? Ex: (https://steamcommunity.com/id/aberkats)</h3>
+                            <input type="text" name="steam" id="steam" maxlength="60">
+
+                            <hr>
+
+                            <div id="q1">
+                                <h3>1. Você tem experiência com o modo de jogo Role Play(RP)?</h3>
+
+                                <input type="radio" name="resposta1" value="T" id="r1"><label for="r1"> Sim </label>
+                                <br>
+                                <input type="radio" name="resposta1" value="F" id="r2"><label for="r2"> Não </label>
+                            </div>
+
+
+
+                    </div>
+                </div>
+            
+            </div>
+            <div class="section">
+                
+                <div class="quadrado">
+                    <div class="div_pergunta">
+                        <div id="q2">
+                            <h3>2. Para você o que é Role Play (RP)?</h3>
+
+                            <input type="radio" name="resposta2" value="F" id="r3" required> <label for="r3"> Uma
+                                forma
+                                de pensar ou agir
+                                diante de uma situação. </label>
+                            <br>
+                            <input type="radio" name="resposta2" value="F" id="r4" required> <label for="r4"> Ser
+                                arrogante com outra pessoa
+                                dentro de Green Ville.<span></span></label>
+                            <br>
+                            <input type="radio" name="resposta2" value="T" id="r5" required> <label for="r5"> É um
+                                tipo
+                                de jogo em que os
+                                jogadores assumem papéis de personagens e criam narrativas.</label>
+
+                        </div>
+
+                        <hr>
+
+                        <div id="q3">
+                            <h3>3. O que é K.O.S? (Kill On Sight)</h3>
+
+                            <input type="radio" name="resposta3" value="F" id="r6" required><label for="r6"> Pular
+                                por
+                                cima de um muro
+                                utilizando o "pézinho".</label>
+                            <br>
+                            <input type="radio" name="resposta3" value="T" id="r7" required><label for="r7"> Matar
+                                um
+                                personagem sem que
+                                ocorra alguma interação prévia.</label>
+                            <br>
+                            <input type="radio" name="resposta3" value="F" id="r8" required> <label for="r8"> Sair
+                                do
+                                servidor para se safar
+                                de uma situação.</label>
+
+                        </div>
+                        <hr>
+
+                        <div id="q4">
+                            <h3>4. O que é Power Gaming? </h3>
+
+                            <input type="radio" name="resposta4" value="F" id="r9"><label for="r9" required> Se
+                                beneficiar de informações
+                                obtidas fora do RP. </label>
+                            <br>
+                            <input type="radio" name="resposta4" value="F" id="r10"><label for="r10" required>
+                                Injetar
+                                algum tipo de programa
+                                ilicito no seu jogo. </label>
+                            <br>
+                            <input type="radio" name="resposta4" value="T" id="r11"><label for="r11" required> Usar
+                                bugs,erros da mecânica ou
+                                fazer ações fora da realidade. </label>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            
+            </div>
+            <div class="section">
+                
+                <div class="quadrado" id="quadradoEspecial">
+                    <div class="div_pergunta">
+                        <div id="q5">
+                            <h3>5. O que é Bad RP?</h3>
+
+                            <input type="radio" name="resposta5" value="T" id="r12"> <label for="r12" required>
+                                Deixar
+                                de interpretar o seu
+                                personagem.</label>
+                            <br>
+                            <input type="radio" name="resposta5" value="F" id="r13"> <label for="r13" required> Se
+                                comunicar com outra pessoa
+                                utilizando meios fora dos servidores.</label>
+                            <br>
+                            <input type="radio" name="resposta5" value="F" id="r14"><label for="r14" required>
+                                Sequestrar e deixar o
+                                individuo para morrer.</label>
+
+                        </div>
+
+                        <hr>
+
+                        <div id="q6">
+                            <h3>6. O que é Meta Gaming?</h3>
+
+                            <input type="radio" name="resposta6" value="F" id="r15"> <label for="r15" required>
+                                Fazer
+                                bases em locais
+                                proibidos.</label>
+                            <br>
+                            <input type="radio" name="resposta6" value="F" id="r16"> <label for="r16" required> Ser
+                                hostil com um individuo
+                                apenas por não gostar dele.</label>
+                            <br>
+                            <input type="radio" name="resposta6" value="T" id="r17"> <label for="r17" required> Se
+                                beneficiar de informações
+                                obtidas fora do RP.</label>
+
+                        </div>
+
+                        <br>
+                    
+                        <button type="submit" id="botao">Enviar</button>
+                        
+                    </div>
+
+                </div>
+            
+            </div>
+        </form>
+        </div>
+    
+
+
+
+
+
+
+
+
+    <script src="../js/wl.js"></script>
+</body>
+
+</html>

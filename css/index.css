@@ -1,0 +1,162 @@
+body{
+    background: url(../image/fundo4.jpg);
+    background-size: 1700px 800px;
+    background-repeat: no-repeat;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: .4s;
+    
+}
+
+
+
+.haufenTitulo{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    background: black;
+    
+    
+    
+}
+.logo{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px;
+    margin-left: 200px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  
+}
+
+.haufenTitulo h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-top: 4px;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    
+
+}
+@keyframes animate{
+
+    0%{
+        background-position: -500%;
+    }
+    100%{
+        background-position: 500%;
+    }
+
+}
+#imgInsta{
+    width: 26.5px;
+    height: 26.5px;
+    margin-top: 0;
+    transition: .4s;
+}
+#imgInsta:hover{
+
+    cursor: pointer;
+    filter: grayscale(1);
+}
+#imgTwt{
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 40px;
+    margin-top: 0px;
+    transition: .4s;
+}
+#imgTwt:hover{
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.social{
+    margin-top: 16px;
+    margin-left: -350px;
+}
+
+
+
+.botaos ul{
+    display: flex;
+    list-style: none;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+.botao{
+    margin: 60px 10px 0px 10px;
+    padding: 60px 20px;
+    width: 300px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.712);
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    display: block;
+    transition: all .6s;
+    
+}
+.botao:hover{
+    border-right: 3px solid green;
+    border-left: 3px solid green;
+    border-bottom: 0px;
+    padding: 55px 18px;
+    cursor: pointer;
+    opacity: 1;
+    filter: blur(0);
+}
+
+
+
+
+.imgSob{
+    width: 76px;
+    height: 76px;
+    margin-left: 12px;  
+}
+.imgWl {
+    width: 60px;
+    height: 60px;
+    margin-left: 14px;
+    
+}
+.imgServ{
+    width: 73px;
+    height: 73px;
+    margin-left: 12px;
+}
+.imgDs{
+    width: 70px;
+    height: 70px;
+    
+}
+
+
+
+.numBotao{
+    color: green;
+    margin-bottom: 150px;
+    border: 2px solid green;
+    border-radius: 100%;
+    padding: 7px 0px;
+    margin-left: 123px;
+    margin-right: 125px;
+}
+.titBotao{
+    text-transform: uppercase;
+    margin-top: 0px;
+    
+}
+
+
+
+
+
+

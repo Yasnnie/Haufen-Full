@@ -24,9 +24,17 @@ foreach ($respostas as $resposta) {
 
 
 
-//FAZER UM IF PARA NÃO PERMITIR ADICIONAR APARTIR DE F5 OU O FORMULÁRIO MANDAR REPETIDO
+$sql = "SELECT id FROM whitelist WHERE discord ='{$discord}' AND steam = '{$steam}'";
+
+$total = mysqli_query($conexao, $sql);
+$rows = mysqli_num_rows($total);
+
+if($rows == 0){
+
 $result_us = "INSERT INTO whitelist (discord, steam, resultado) VALUES('{$discord}','{$steam}', '{$veri}')";
 $query = mysqli_query($conexao, $result_us);
+
+}
 
 
 

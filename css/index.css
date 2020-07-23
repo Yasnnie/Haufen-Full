@@ -63,7 +63,7 @@ body{
 #imgInsta:hover{
 
     cursor: pointer;
-    filter: grayscale(1);
+    filter: invert(70%);
 }
 #imgTwt{
     width: 25px;
@@ -75,8 +75,9 @@ body{
 }
 #imgTwt:hover{
     cursor: pointer;
-    filter: grayscale(1);
+    filter: invert(70%);
 }
+
 .social{
     margin-top: 16px;
     margin-left: -350px;

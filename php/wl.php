@@ -58,7 +58,7 @@ $query = mysqli_query($conexao, $result_us);
 
     <div class=" barra barraFimWl">
         <ul>
-            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../index.php">Inicio</a></li>
             <li><a href="../html/servidores.html">Servidores</a></li>
             <li><a href="https://discord.gg/QsYqCMm" target="_blank">Discord</a></li>
             <li><a href="../html/sobre.html">Sobre</a></li>

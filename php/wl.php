@@ -29,11 +29,10 @@ $sql = "SELECT id FROM whitelist WHERE discord ='{$discord}' AND steam = '{$stea
 $total = mysqli_query($conexao, $sql);
 $rows = mysqli_num_rows($total);
 
-if($rows == 0){
+if ($rows == 0) {
 
-$result_us = "INSERT INTO whitelist (discord, steam, resultado) VALUES('{$discord}','{$steam}', '{$veri}')";
-$query = mysqli_query($conexao, $result_us);
-
+    $result_us = "INSERT INTO whitelist (discord, steam, resultado) VALUES('{$discord}','{$steam}', '{$veri}')";
+    $query = mysqli_query($conexao, $result_us);
 }
 
 
@@ -56,14 +55,15 @@ $query = mysqli_query($conexao, $result_us);
 
 
 
-    <div class=" barra barraFimWl">
+    <nav class=" barra barraFimWl">
         <ul>
             <li><a href="../index.php">Inicio</a></li>
             <li><a href="../html/servidores.html">Servidores</a></li>
             <li><a href="https://discord.gg/QsYqCMm" target="_blank">Discord</a></li>
             <li><a href="../html/sobre.html">Sobre</a></li>
         </ul>
-    </div>
+    </nav>
+
     <div class="quadrado final">
         <div class="tituloDiv">
             <h2>Obrigado por fazer a nossa </h2>
